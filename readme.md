@@ -1,6 +1,6 @@
 # Graph Function Visualiser
 ## Introduction
-Graph Function Visualiser, or GFV, is a simple java-based mathematical cartasien graph function grapher. GFV can be used as a basic calculator graph.
+Graph Function Visualiser, or GFV, is a simple java-based mathematical cartasien graph function grapher. GFV can be used as a basic calculator graph. This was made in java 14, it would probably work on prior versions if you're just copying the code over, but I recommended that you use java 14 or higher.
 
 ## Current functions
 The current functions for GFV include:
