@@ -10,6 +10,8 @@ X-Intercept (Parabola)
 Circle graph
 Exponential function (exponential)
 Power function (exponential)
+Linear
+Cubic function (Like the power except locked on cubed)
 ```
 
 Calculations are shown here in the same order
@@ -19,6 +21,8 @@ y = (x + a)(x + b) + c
 (x + a)^2 + (x + b)^2 = c^2
 y = a^(x + b) + c
 y = ax^b + c
+y = a(x + b) + c
+y = a(x + b)^3 + c
 ```
 
 ## Future plans
