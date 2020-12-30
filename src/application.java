@@ -110,6 +110,22 @@ public class application extends JPanel {
                             getWidth() / 2 + (x + 1) * size + xAxisDisplacement, getHeight() / 2 + (int) -(a * Math.pow((x + 1), b) + c) * size + yAxisDisplacement);
                 }
             }
+
+            //linear graph
+            case 6 -> {
+                for (int x = -maximum; x != maximum; x++) {
+                    g.drawLine(getWidth() / 2 + x * size + xAxisDisplacement, getHeight() / 2 + -(a * (x + b) + c) * size + yAxisDisplacement,
+                            getWidth() / 2 + (x + 1) * size + xAxisDisplacement, getHeight() / 2 + -(a * ((x + 1) + b) + c) * size + yAxisDisplacement);
+                }
+            }
+
+            //Cube
+            case 7 -> {
+                for (int x = -maximum; x != maximum; x++) {
+                    g.drawLine(getWidth() / 2 + x * size + xAxisDisplacement, getHeight() / 2 + (int) -(a * Math.pow((x + b),3) + c) * size + yAxisDisplacement,
+                            getWidth() / 2 + (x + 1) * size + xAxisDisplacement, getHeight() / 2 + (int) -(a * Math.pow(((x + 1) + b),3) + c) * size + yAxisDisplacement);
+                }
+            }
         }
     }
 

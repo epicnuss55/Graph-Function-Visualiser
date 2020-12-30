@@ -28,8 +28,10 @@ public class Main {
         types.addElement("Turning Point: y = a(x - b)^2 + c");
         types.addElement("x-intercept: y = (x + a)(x + b) + c");
         types.addElement("Circle: (x + a)^2 + (x + b)^2 = c^2");
-        types.addElement("exponential: y = a^(x + b) + c");
-        types.addElement("power: y = ax^b + c");
+        types.addElement("Exponential: y = a^(x + b) + c");
+        types.addElement("Power: y = ax^b + c");
+        types.addElement("Linear: y = a(x + b) + c");
+        types.addElement("Cube: y = a(x + b)^3 + c");
 
         typeList = new JList<>(types);
         typeList.setBounds(10,50,200,150);
@@ -161,9 +163,9 @@ public class Main {
 
         discord.addActionListener(e -> {
             try {
-                URI discordurl = new URI("https://discord.gg/SNRYSGa");
+                URI discordURL = new URI("https://discord.gg/SNRYSGa");
                 Desktop desktop = Desktop.getDesktop();
-                desktop.browse(discordurl.toURL().toURI());
+                desktop.browse(discordURL.toURL().toURI());
             } catch (URISyntaxException | IOException uriSyntaxException) {
                 uriSyntaxException.printStackTrace();
             }
