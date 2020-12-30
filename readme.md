@@ -26,4 +26,4 @@ y = a(x + b)^3 + c
 ```
 
 ## Future plans
-- Add more functions
+- Make a more dynamic version with javascript
