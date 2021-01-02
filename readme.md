@@ -7,7 +7,7 @@ The current functions for GFV include:
 ```
 Turning point (Parabola)
 X-Intercept (Parabola)
-Circle graph
+Circle graph (Circles don't count as a function, but i added this one anyways)
 Exponential function (exponential)
 Power function (exponential)
 Linear
