@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+
+
+@keyframes BackgroundAnim {
+    0% {background-color: #ff0000;}
+    12.5% {background-color: #ff8800;}
+    25% {background-color: #ffee00;}
+    37.5% {background-color: #33ff00;}
+    50% {background-color: #0c9400;}
+    62.5% {background-color: #00ffff;}
+    75% {background-color: #0011fc;}
+    87.5% {background-color: #990066;}
+    100% {background-color: #ff0000;}
+}
+
+body{
+    animation-name: BackgroundAnim;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}
+
+div{
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid black;
+    border-radius: 30px;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+canvas{
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 1rem;
+    display:block;
+    width: 1000px;
+    height: 500px;
+    border: 2px solid black;
+}
+
+.CalculationContainer {
+    border-radius: 0px;
+    border: 2px solid white;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.content{
+    border-color: gray;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.disclaimer{
+    border-color: gray;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    margin: 30px;
+}
+
+.input{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+.Y{
+    font-family: 'Staatliches', cursive;
+    font-size: 30px;
+    padding: 10px;
+    color: white;
+}
+
+h1{
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    font-size: 4rem;
+}
+
+h2{
+    font-family: 'Staatliches', cursive;
+    font-size: 2rem;
+}
+
+p{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1.5rem;
+    padding: 10px;
+    text-align: justify;
+}
+
+li {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1.5rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+}
